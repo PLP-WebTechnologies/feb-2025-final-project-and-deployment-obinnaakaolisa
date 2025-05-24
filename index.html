@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- Declares the document as HTML5 -->
+<html lang="en">
+<head>
+    <!-- Metadata for character encoding, viewport, and SEO -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Naija Blog - A platform for Nigerian stories and culture">
+    <title>Naija Blog - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Page header with title -->
+    <header class="main-header">
+        <h1>Naija Blog</h1>
+    </header>
+
+    <!-- Navigation menu -->
+    <nav id="main-nav">
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content section using Grid -->
+    <main class="main-content">
+        <!-- Hero section with image slider -->
+        <section id="hero" class="content-section">
+            <h2>Welcome to Naija Blog</h2>
+            <p>Discover stories, culture, and insights from Nigeria.</p>
+            <!-- Image slider -->
+            <div class="slider">
+                <img src="https://images.pexels.com/photos/3316337/pexels-photo-3316337.jpeg?auto=compress&cs=tinysrgb&w=1280&h=750&dpr=1" alt="Nigerian culture" class="slider-image styled-image">
+                <img src="https://images.pexels.com/photos/17691084/pexels-photo-17691084/free-photo-of-market-vendor-of-tomatoes.jpeg?auto=compress&cs=tinysrgb&w=1280&h=750&dpr=1" alt="Lagos market" class="slider-image styled-image" style="display: none;">
+                <img src="https://images.pexels.com/photos/32184777/pexels-photo-32184777/free-photo-of-colorful-nigerian-cultural-parade-with-horses.jpeg?auto=compress&cs=tinysrgb&w=1280&h=750&dpr=1" alt="Nigerian festival" class="slider-image styled-image" style="display: none;">
+                <button class="slider-btn prev">Previous</button>
+                <button class="slider-btn next">Next</button>
+            </div>
+        </section>
+
+        <!-- Blog post preview -->
+        <section id="posts" class="content-section">
+            <h2>Latest Posts</h2>
+            <article>
+                <h3>The Vibrant Culture of Lagos</h3>
+                <p>Explore the bustling markets and rich traditions of Lagos, Nigeria's economic hub.</p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer with contact information -->
+    <footer class="main-footer">
+        <p>Contact us at: <a href="mailto:info@naijablog.com">info@naijablog.com</a></p>
+        <p>© 2025 Naija Blog. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
